@@ -38,7 +38,7 @@ plot(dnorm(seq(-0.1,0.1,0.0001),mu,sigma)~seq(-0.1,0.1,0.0001),type="l",main="No
 abline(v=VaR_1_N,col="blue")
 abline(v=ES_1_N,col="red")
 
-#Normal density plot with VaR and ES (alpha=0.01)
+#Normal density plot with VaR and ES (alpha=0.05)
 plot(dnorm(seq(-0.1,0.1,0.0001),mu,sigma)~seq(-0.1,0.1,0.0001),type="l",main="Normal distribution, alpha=0.05",xlab="",ylab="Density")
 abline(v=VaR_5_N,col="blue")
 abline(v=ES_5_N,col="red")
