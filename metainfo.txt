@@ -1,13 +1,13 @@
-Name of QuantLet : NNQR_Heat
+Name of QuantLet : XFG_VaR_ES
 
-Published in : 'Modelling Systemic Risk using Neural Network Quantile Regression'
+Published in : 
 
-Description : 'Plots the average risk spillover effects over the whole estimation period as well as over the period within three months of the Lehman bankruptcy.'
+Description : 'Creates density plots with VaR and Expected Shortfall of Deutsche Bank daily stock returns in a time period from April 2017 - April 2019. Compares the nonparametric kernel density estimate with a parametric maximum likelihood estimate assuming normal distributed returns.'
 
-Keywords : Systemic risk, quantile regression, neural networks, heat plot
+Keywords : VaR, Expected Shortfall, ES, kernel density
 
-See also : 'NNQR_CoVaR, NNQR_Network, NNQR_SNRI'
+See also : 'MSM_VaRandES, SFEVaRbank, SPMkdeconstruct'
 
 Author : Georg Keilbar
 
-Submitted : October 8 2018 by Georg Keilbar
+Submitted : April 4 2019 by Georg Keilbar
